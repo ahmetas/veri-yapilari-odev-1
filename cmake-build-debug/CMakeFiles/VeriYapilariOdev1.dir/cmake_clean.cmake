@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/VeriYapilariOdev1.dir/Kart.cpp.obj"
+  "CMakeFiles/VeriYapilariOdev1.dir/Konsol.cpp.obj"
+  "CMakeFiles/VeriYapilariOdev1.dir/Sembol.cpp.obj"
   "CMakeFiles/VeriYapilariOdev1.dir/main.cpp.obj"
   "VeriYapilariOdev1.exe"
   "VeriYapilariOdev1.exe.manifest"

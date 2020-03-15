@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Kart.cpp">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Kart.h">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Konsol.cpp">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Konsol.h">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Sembol.cpp">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
+		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/Sembol.h">
+			<Option target="VeriYapilariOdev1"/>
+		</Unit>
 		<Unit filename="C:/Users/ahmet/source/repos/VeriYapilariOdev1/main.cpp">
 			<Option target="VeriYapilariOdev1"/>
 		</Unit>

@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/ahmet/source/repos/VeriYapilariOdev1/Kart.cpp" "C:/Users/ahmet/source/repos/VeriYapilariOdev1/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Kart.cpp.obj"
+  "C:/Users/ahmet/source/repos/VeriYapilariOdev1/Konsol.cpp" "C:/Users/ahmet/source/repos/VeriYapilariOdev1/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Konsol.cpp.obj"
+  "C:/Users/ahmet/source/repos/VeriYapilariOdev1/Sembol.cpp" "C:/Users/ahmet/source/repos/VeriYapilariOdev1/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Sembol.cpp.obj"
   "C:/Users/ahmet/source/repos/VeriYapilariOdev1/main.cpp" "C:/Users/ahmet/source/repos/VeriYapilariOdev1/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

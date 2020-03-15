@@ -124,6 +124,87 @@ VeriYapilariOdev1\fast:
 	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\build
 .PHONY : VeriYapilariOdev1\fast
 
+Kart.obj: Kart.cpp.obj
+
+.PHONY : Kart.obj
+
+# target to build an object file
+Kart.cpp.obj:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.obj
+.PHONY : Kart.cpp.obj
+
+Kart.i: Kart.cpp.i
+
+.PHONY : Kart.i
+
+# target to preprocess a source file
+Kart.cpp.i:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.i
+.PHONY : Kart.cpp.i
+
+Kart.s: Kart.cpp.s
+
+.PHONY : Kart.s
+
+# target to generate assembly for a file
+Kart.cpp.s:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.s
+.PHONY : Kart.cpp.s
+
+Konsol.obj: Konsol.cpp.obj
+
+.PHONY : Konsol.obj
+
+# target to build an object file
+Konsol.cpp.obj:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.obj
+.PHONY : Konsol.cpp.obj
+
+Konsol.i: Konsol.cpp.i
+
+.PHONY : Konsol.i
+
+# target to preprocess a source file
+Konsol.cpp.i:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.i
+.PHONY : Konsol.cpp.i
+
+Konsol.s: Konsol.cpp.s
+
+.PHONY : Konsol.s
+
+# target to generate assembly for a file
+Konsol.cpp.s:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.s
+.PHONY : Konsol.cpp.s
+
+Sembol.obj: Sembol.cpp.obj
+
+.PHONY : Sembol.obj
+
+# target to build an object file
+Sembol.cpp.obj:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Sembol.cpp.obj
+.PHONY : Sembol.cpp.obj
+
+Sembol.i: Sembol.cpp.i
+
+.PHONY : Sembol.i
+
+# target to preprocess a source file
+Sembol.cpp.i:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Sembol.cpp.i
+.PHONY : Sembol.cpp.i
+
+Sembol.s: Sembol.cpp.s
+
+.PHONY : Sembol.s
+
+# target to generate assembly for a file
+Sembol.cpp.s:
+	$(MAKE) -f CMakeFiles\VeriYapilariOdev1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VeriYapilariOdev1.dir\Sembol.cpp.s
+.PHONY : Sembol.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +241,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... VeriYapilariOdev1
 	@echo ... edit_cache
+	@echo ... Kart.obj
+	@echo ... Kart.i
+	@echo ... Kart.s
+	@echo ... Konsol.obj
+	@echo ... Konsol.i
+	@echo ... Konsol.s
+	@echo ... Sembol.obj
+	@echo ... Sembol.i
+	@echo ... Sembol.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
