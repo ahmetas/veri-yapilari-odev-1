@@ -5,15 +5,10 @@
 
 using namespace std;
 
-int main() {
-    srand((unsigned)time(NULL));
+int kartSayisi;
+Kart *ptrKart;
 
-    int kartSayisi;
-    cout << "Kart adedi giriniz.";
-    cin >> kartSayisi;
-    Kart *ptrKart;
-    ptrKart = new Kart [kartSayisi];
-
+void KartlariYazdir(){
     for (int i = 0; i < kartSayisi; ++i) {
         cout << i + 1 << "       ";
     }
@@ -24,6 +19,17 @@ int main() {
         Konsol::RastgeleYaziRengiMi(false);
         cout << "\t";
     }
+}
+
+int main() {
+    srand((unsigned)time(NULL));
+
+    cout << "Kart adedi giriniz.";
+    cin >> kartSayisi;
+
+    ptrKart = new Kart [kartSayisi];
+
+    KartlariYazdir();
 
     delete []ptrKart;
     return 0;
