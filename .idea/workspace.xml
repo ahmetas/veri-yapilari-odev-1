@@ -13,19 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="274a2bb5-453f-4622-a271-56e05c9876b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Konsol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Konsol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +62,8 @@
       <workItem from="1582699118673" duration="611000" />
       <workItem from="1583919132276" duration="1969000" />
       <workItem from="1584116876928" duration="3180000" />
-      <workItem from="1584160200362" duration="29693000" />
+      <workItem from="1584160200362" duration="30050000" />
+      <workItem from="1584335661107" duration="4879000" />
     </task>
     <servers />
   </component>
@@ -79,26 +71,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1584262592099">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1584340174435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584262592099" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1584262592099">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584340174435" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1584340174435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584262592099" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1584262592099">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584340174435" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1584340174435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584262592099" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1584262592099">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584340174435" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1584340174435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584262592099" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584160202516">
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584340174435" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584335667023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584160202516" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584335667023" />
     <state x="701" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1584179411870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
