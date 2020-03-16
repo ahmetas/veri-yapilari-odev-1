@@ -19,7 +19,9 @@ int main() {
     }
     cout << endl;
     for (int i = 0; i < kartSayisi; ++i) {
-        Konsol::SembolYazdir(ptrKart[i].GetSembol()->GetKarakter());
+        Konsol::RastgeleYaziRengiMi(true);
+        cout << ptrKart[i].GetSembol()->GetKarakter();
+        Konsol::RastgeleYaziRengiMi(false);
         cout << "\t";
     }
 

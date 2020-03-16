@@ -3,10 +3,12 @@
 
 class Sembol {
 private:
-    int karakter;
+    char karakter;
 public:
     Sembol();
-    int GetKarakter();
+
+    char GetKarakter();
+    char RastgeleKarakterAta();
 };
 
 #endif //VERIYAPILARIODEV1_SEMBOL_H

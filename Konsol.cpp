@@ -17,26 +17,9 @@ enum Renkler{
     sari = 14
 };
 
-void Konsol::SembolYazdir(int karakter) {
+void Konsol::RastgeleYaziRengiMi(bool b) {
+if(b)
     SetConsoleTextAttribute(h, static_cast<Renkler>(rand() % sari));
-    switch(karakter) {
-        case 1:
-            cout << "\77";
-            break;
-        case 2:
-            cout << "\43";
-            break;
-        case 3:
-            cout << "\44";
-            break;
-        case 4:
-            cout << "\46";
-            break;
-        case 5:
-            cout << "\57";
-            break;
-        default:
-            break;
-    }
+else
     SetConsoleTextAttribute(h, w);
 }

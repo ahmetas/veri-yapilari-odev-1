@@ -4,7 +4,7 @@
 class Konsol {
 private:
 public:
-    static void SembolYazdir(int);
+    static void RastgeleYaziRengiMi(bool);
 };
 
 #endif //VERIYAPILARIODEV1_KONSOL_H
