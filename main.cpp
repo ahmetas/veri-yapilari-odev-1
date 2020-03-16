@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Kart.h"
-#include "ctime"
 #include "Konsol.h"
+#include "ctime"
 
 using namespace std;
 
 int kartSayisi;
+int secim;
+
 Kart *ptrKart;
 
 void KartlariYazdir(){
@@ -14,11 +16,20 @@ void KartlariYazdir(){
     }
     cout << endl;
     for (int i = 0; i < kartSayisi; ++i) {
-        Konsol::RastgeleYaziRengiMi(true);
+        Konsol::KonsolRenkDegis(ptrKart[i].GetSembol()->GetKarakterRenk());
         cout << ptrKart[i].GetSembol()->GetKarakter();
-        Konsol::RastgeleYaziRengiMi(false);
         cout << "\t";
     }
+    Konsol::KonsolRenkDuzelt();
+    cout << endl << endl;
+}
+
+void IslemlerMenu(){
+    cout << "islemler" << endl;
+    cout << "1. Kart Degistir" << endl;
+    cout << "2. Ters Cevir" << endl;
+    cout << "3. Cikis" << endl;
+    cout << ">>";
 }
 
 int main() {
@@ -29,7 +40,12 @@ int main() {
 
     ptrKart = new Kart [kartSayisi];
 
-    KartlariYazdir();
+    do {
+        KartlariYazdir();
+        IslemlerMenu();
+        cin >> secim;
+    }
+    while (secim != 3);
 
     delete []ptrKart;
     return 0;

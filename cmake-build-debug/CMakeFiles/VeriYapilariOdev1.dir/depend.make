@@ -5,8 +5,10 @@ CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.obj: ..\Kart.cpp
 CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.obj: ..\Kart.h
 CMakeFiles\VeriYapilariOdev1.dir\Kart.cpp.obj: ..\Sembol.h
 
+CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.obj: ..\Kart.h
 CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.obj: ..\Konsol.cpp
 CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.obj: ..\Konsol.h
+CMakeFiles\VeriYapilariOdev1.dir\Konsol.cpp.obj: ..\Sembol.h
 
 CMakeFiles\VeriYapilariOdev1.dir\Sembol.cpp.obj: ..\Sembol.cpp
 CMakeFiles\VeriYapilariOdev1.dir\Sembol.cpp.obj: ..\Sembol.h

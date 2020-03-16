@@ -13,7 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="274a2bb5-453f-4622-a271-56e05c9876b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Konsol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Konsol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Konsol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Konsol.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sembol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sembol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sembol.h" beforeDir="false" afterPath="$PROJECT_DIR$/Sembol.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Kart.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Kart.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Konsol.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Konsol.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Sembol.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/Sembol.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VeriYapilariOdev1.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/VeriYapilariOdev1.exe" afterDir="false" />
@@ -43,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunManager">
     <configuration name="VeriYapilariOdev1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VeriYapilariOdev1" TARGET_NAME="VeriYapilariOdev1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="VeriYapilariOdev1" RUN_TARGET_NAME="VeriYapilariOdev1">
@@ -66,7 +76,8 @@
       <workItem from="1584116876928" duration="3180000" />
       <workItem from="1584160200362" duration="30050000" />
       <workItem from="1584335661107" duration="7509000" />
-      <workItem from="1584343196659" duration="3547000" />
+      <workItem from="1584343196659" duration="10722000" />
+      <workItem from="1584359272979" duration="3226000" />
     </task>
     <servers />
   </component>
@@ -74,26 +85,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1584348064161">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584359357174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584348064161" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1584348064161">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584359357174" />
+    <state x="728" y="350" key="#com.intellij.tools.ToolEditorDialog" timestamp="1584350272503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584348064161" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1584348064161">
+    <state x="728" y="350" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584350272503" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1584350122480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584348064161" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1584348064161">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584350122480" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1584362481778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584348064161" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584343204701">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584362481778" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1584362481778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584343204701" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584362481778" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1584362481778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584362481778" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1584362481778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584362481778" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584359378613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584359378613" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584359273095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584359273095" />
     <state x="701" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1584179411870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
