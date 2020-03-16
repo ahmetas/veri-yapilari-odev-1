@@ -8,7 +8,7 @@ using namespace std;
 int kartSayisi;
 int secim;
 
-Kart *ptrKart;
+Kart** ptrKart;
 
 void KartlariYazdir(){
     for (int i = 0; i < kartSayisi; ++i) {
@@ -16,8 +16,8 @@ void KartlariYazdir(){
     }
     cout << endl;
     for (int i = 0; i < kartSayisi; ++i) {
-        Konsol::KonsolRenkDegis(ptrKart[i].GetSembol()->GetKarakterRenk());
-        cout << ptrKart[i].GetSembol()->GetKarakter();
+        Konsol::KonsolRenkDegis(ptrKart[i]->GetSembol()->GetKarakterRenk());
+        cout << ptrKart[i]->GetSembol()->GetKarakter();
         cout << "\t";
     }
     Konsol::KonsolRenkDuzelt();
@@ -32,18 +32,41 @@ void IslemlerMenu(){
     cout << ">>";
 }
 
+void KartDegistir(){
+    int degisen1, degisen2;
+    Kart* gecici;
+
+    cout << "Kacinci Karti Degistirmek istiyorsun:";
+    cin >> degisen1;
+    cout << "Hangi Kart ile Degistirmek istiyorsun:";
+    cin >> degisen2;
+
+    gecici = ptrKart[degisen1 - 1];
+    ptrKart[degisen1 - 1] = ptrKart[degisen2 - 1];
+    ptrKart[degisen2 - 1] = gecici;
+}
+
 int main() {
     srand((unsigned)time(NULL));
 
     cout << "Kart adedi giriniz.";
     cin >> kartSayisi;
 
-    ptrKart = new Kart [kartSayisi];
+    ptrKart = new Kart* [kartSayisi];
+    for (int i = 0; i < kartSayisi; ++i) {
+        ptrKart[i] = new Kart();
+    }
 
     do {
         KartlariYazdir();
         IslemlerMenu();
         cin >> secim;
+        switch (secim) {
+            case 1:
+                KartDegistir();
+                break;
+            default: cout << "Lutfen gecerli bir secim yapiniz." << endl;
+        }
     }
     while (secim != 3);
 
