@@ -46,6 +46,20 @@ void KartDegistir(){
     ptrKart[degisen2 - 1] = gecici;
 }
 
+void TersCevir(){
+    Kart** gecici;
+    gecici = new Kart*[kartSayisi];
+    int sayac = kartSayisi;
+
+    for (int i = 0; i < kartSayisi; ++i) {
+        gecici[i] = ptrKart[sayac - 1];
+        sayac--;
+    }
+    for (int j = 0; j < kartSayisi; ++j) {
+        ptrKart[j] = gecici[j];
+    }
+}
+
 int main() {
     srand((unsigned)time(NULL));
 
@@ -65,6 +79,8 @@ int main() {
             case 1:
                 KartDegistir();
                 break;
+            case 2:
+                TersCevir();
             default: cout << "Lutfen gecerli bir secim yapiniz." << endl;
         }
     }
