@@ -47,16 +47,14 @@ void KartDegistir(){
 }
 
 void TersCevir(){
-    Kart** gecici;
-    gecici = new Kart*[kartSayisi];
+    Kart* gecici;
     int sayac = kartSayisi;
 
-    for (int i = 0; i < kartSayisi; ++i) {
-        gecici[i] = ptrKart[sayac - 1];
+    for (int i = 0; i < kartSayisi / 2; ++i) {
+        gecici = ptrKart[i];
+        ptrKart[i] = ptrKart[sayac -1];
+        ptrKart[sayac - 1] = gecici;
         sayac--;
-    }
-    for (int j = 0; j < kartSayisi; ++j) {
-        ptrKart[j] = gecici[j];
     }
 }
 
@@ -81,11 +79,15 @@ int main() {
                 break;
             case 2:
                 TersCevir();
+                break;
             default: cout << "Lutfen gecerli bir secim yapiniz." << endl;
         }
     }
     while (secim != 3);
 
     delete []ptrKart;
+    for (int i = 0; i < kartSayisi; ++i) {
+        delete ptrKart[i];
+    }
     return 0;
 }
