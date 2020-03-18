@@ -1,7 +1,8 @@
 #include "Kart.h"
 
+Sembol *ptrSembol;
+
 Kart::Kart() {
-    Sembol *ptrSembol;
     ptrSembol = new Sembol();
     sembol = ptrSembol;
 }
@@ -11,4 +12,5 @@ Sembol* Kart::GetSembol() {
 }
 
 Kart::~Kart() {
+    delete ptrSembol;
 }
