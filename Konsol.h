@@ -7,7 +7,8 @@ class Konsol {
 private:
 public:
     static void KonsolRenkDuzelt();
-    static void KonsolRenkDegis(char);
+    static void KonsolRenkDegis(wchar_t);
+    static void KonsolModDegis(bool);
 };
 
 #endif //VERIYAPILARIODEV1_KONSOL_H

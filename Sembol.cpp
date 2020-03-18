@@ -15,20 +15,20 @@ Sembol::Sembol() {
     karakter[1] = RastgeleRenkAta();
 }
 
-char Sembol::GetKarakter(){
+wchar_t Sembol::GetKarakter(){
     return karakter[0];
 }
 
-char Sembol::GetKarakterRenk() {
+wchar_t Sembol::GetKarakterRenk() {
     return karakter[1];
 }
 
-char Sembol::RastgeleKarakterAta(){
-    char karakterler[5] = {'#', '$', '&', '/', '?'};
-    karakter[0] = karakterler[rand() % 5];
+wchar_t Sembol::RastgeleKarakterAta(){
+    wchar_t* karakterler[5] = {L"\x2665", L"\x2666", L"\x2663", L"\x263B", L"\x2660"};
+    karakter[0] = *karakterler[rand() % 5];
     return karakter[0];
 }
 
-char Sembol::RastgeleRenkAta(){
+wchar_t Sembol::RastgeleRenkAta(){
     return karakter[1] = static_cast<Renkler>(rand() % sari);
 }

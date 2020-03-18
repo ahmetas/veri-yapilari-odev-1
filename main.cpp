@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Kart.h"
 #include "Konsol.h"
+#include <io.h>
 #include "ctime"
 
 using namespace std;
@@ -11,13 +12,14 @@ int secim;
 Kart** ptrKart;
 
 void KartlariYazdir(){
-    for (int i = 0; i < kartSayisi; ++i) {
+    for (int i = 0; i < kartSayisi; ++i)
         cout << i + 1 << "       ";
-    }
     cout << endl;
     for (int i = 0; i < kartSayisi; ++i) {
         Konsol::KonsolRenkDegis(ptrKart[i]->GetSembol()->GetKarakterRenk());
-        cout << ptrKart[i]->GetSembol()->GetKarakter();
+        Konsol::KonsolModDegis(true);
+        wcout << ptrKart[i]->GetSembol()->GetKarakter();
+        Konsol::KonsolModDegis(false);
         cout << "\t";
     }
     Konsol::KonsolRenkDuzelt();
@@ -65,9 +67,8 @@ int main() {
     cin >> kartSayisi;
 
     ptrKart = new Kart* [kartSayisi];
-    for (int i = 0; i < kartSayisi; ++i) {
+    for (int i = 0; i < kartSayisi; ++i)
         ptrKart[i] = new Kart();
-    }
 
     do {
         KartlariYazdir();
@@ -80,14 +81,14 @@ int main() {
             case 2:
                 TersCevir();
                 break;
+            case 3:
+                return 0;
             default: cout << "Lutfen gecerli bir secim yapiniz." << endl;
         }
-    }
-    while (secim != 3);
+    }while (secim != 3);
 
     delete []ptrKart;
-    for (int i = 0; i < kartSayisi; ++i) {
+    for (int i = 0; i < kartSayisi; ++i)
         delete ptrKart[i];
-    }
     return 0;
 }
