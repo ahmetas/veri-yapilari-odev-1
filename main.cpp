@@ -1,30 +1,14 @@
 #include <iostream>
 #include "Kart.h"
-#include "Konsol.h"
 #include <io.h>
 #include "ctime"
+#include "Yazici.h"
 
 using namespace std;
 
-int kartSayisi;
 int secim;
 
-Kart** ptrKart;
-
-void KartlariYazdir(){
-    for (int i = 0; i < kartSayisi; ++i)
-        cout << i + 1 << "       ";
-    cout << endl;
-    for (int i = 0; i < kartSayisi; ++i) {
-        Konsol::KonsolRenkDegis(ptrKart[i]->GetSembol()->GetKarakterRenk());
-        Konsol::KonsolModDegis(true);
-        wcout << ptrKart[i]->GetSembol()->GetKarakter();
-        Konsol::KonsolModDegis(false);
-        cout << "\t";
-    }
-    Konsol::KonsolRenkDuzelt();
-    cout << endl << endl;
-}
+Yazici yazici;
 
 void IslemlerMenu(){
     cout << "islemler" << endl;
@@ -43,19 +27,19 @@ void KartDegistir(){
     cout << "Hangi Kart ile Degistirmek istiyorsun:";
     cin >> degisen2;
 
-    gecici = ptrKart[degisen1 - 1];
-    ptrKart[degisen1 - 1] = ptrKart[degisen2 - 1];
-    ptrKart[degisen2 - 1] = gecici;
+    gecici = yazici.ptrKart[degisen1 - 1];
+    yazici.ptrKart[degisen1 - 1] = yazici.ptrKart[degisen2 - 1];
+    yazici.ptrKart[degisen2 - 1] = gecici;
 }
 
 void TersCevir(){
     Kart* gecici;
-    int sayac = kartSayisi;
+    int sayac = yazici.kartSayisi;
 
-    for (int i = 0; i < kartSayisi / 2; ++i) {
-        gecici = ptrKart[i];
-        ptrKart[i] = ptrKart[sayac -1];
-        ptrKart[sayac - 1] = gecici;
+    for (int i = 0; i < yazici.kartSayisi / 2; ++i) {
+        gecici = yazici.ptrKart[i];
+        yazici.ptrKart[i] = yazici.ptrKart[sayac - 1];
+        yazici.ptrKart[sayac - 1] = gecici;
         sayac--;
     }
 }
@@ -64,14 +48,14 @@ int main() {
     srand((unsigned)time(NULL));
 
     cout << "Kart adedi giriniz.";
-    cin >> kartSayisi;
+    cin >> yazici.kartSayisi;
 
-    ptrKart = new Kart* [kartSayisi];
-    for (int i = 0; i < kartSayisi; ++i)
-        ptrKart[i] = new Kart();
+    yazici.ptrKart = new Kart* [yazici.kartSayisi];
+    for (int i = 0; i < yazici.kartSayisi; ++i)
+        yazici.ptrKart[i] = new Kart();
 
     do {
-        KartlariYazdir();
+        yazici.KartlariYazdir();
         IslemlerMenu();
         cin >> secim;
         switch (secim) {
@@ -87,8 +71,8 @@ int main() {
         }
     }while (secim != 3);
 
-    delete []ptrKart;
-    for (int i = 0; i < kartSayisi; ++i)
-        delete ptrKart[i];
+    delete []yazici.ptrKart;
+    for (int i = 0; i < yazici.kartSayisi; ++i)
+        delete yazici.ptrKart[i];
     return 0;
 }

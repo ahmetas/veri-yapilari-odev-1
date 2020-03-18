@@ -20,7 +20,7 @@ void Konsol::KonsolRenkDegis(wchar_t ptr){
 
 void Konsol::KonsolModDegis(bool b){
     if(b)
-        _setmode(_fileno(stdout), _O_U16TEXT);
+        _setmode(_fileno(stdout), 0x00020000);
     else
         _setmode(_fileno(stdout), mod);
 }
